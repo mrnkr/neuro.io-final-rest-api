@@ -1,0 +1,35 @@
+{
+  "name": "neuro-rest-api",
+  "version": "1.0.0",
+  "description": "RESTful API for the Neuro.IO surgery log system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Mr.NKR",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrnkr/neuro.io-final-rest-api.git"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "express-stormpath": "^3.2.0",
+    "method-override": "^2.3.9",
+    "mongoose": "^4.10.3",
+    "morgan": "^1.8.2",
+    "node-restful": "^0.2.6",
+    "nodemailer": "^4.0.1",
+    "oauth2orize": "^1.8.0",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
+    "passport-http-bearer": "^1.0.1",
+    "simple-oauth2": "^1.2.0"
+  }
+}
